@@ -1,0 +1,150 @@
+* {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #0a1e18;
+}
+	
+.left-pane {
+	position: fixed;
+	top: 0;
+  	left: 0;
+   	width: 23%;
+	height: 100%;
+	background: #05110c;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #f4f4f4;
+	border-right: 10px groove #b44cbf;
+}
+
+.main-container {
+	margin-left: 23%;
+	padding: 20px 50px;
+	background: #0a1e18;
+	color: #f4f4f4;
+	overflow-y: auto;
+}
+	
+header img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header a,
+header a:visited {
+	color: #f4f4f4;
+	text-decoration: none;
+}
+
+header a:hover,
+header a:focus-within {
+	text-decoration: underline;
+}
+
+#diffPage {
+	position: absolute;
+	bottom: 0;
+	text-align:center;
+}
+
+
+section {
+	margin-bottom: 40px;
+}
+	
+h1 {
+	font-size: 36px;
+	margin-top: 50px;
+}
+	
+h2 {
+	font-size: 28px;
+}
+	
+h3 {
+	font-size: 24px;
+	color: #b44cbf;
+}
+	
+p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+	
+.menu {
+	margin-top: 40px;
+}
+	
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: #f4f4f4;
+	padding: 10px 12px;
+	font-weight: bold;
+	color: #b44cbf;
+	transition: background-color 0.5s ease, font-size 0.5s ease;
+}
+	
+.menu a:hover,
+.menu a:focus-within {
+	background: #0a1e18;
+	font-size: 22px;
+	color: #f4f4f4;
+	border: #b44cbf;
+}
+	
+#job-title {
+	color: #b44cbf;
+}
+	
+.itc {
+	font-style: italic;
+}
+	
+.list-level-1 li,
+ul li	{
+	margin-left: 40px;
+	margin-bottom: 16px;
+}
+	
+table {
+	border-collapse: collapse;
+	margin-bottom: 18px;
+}
+
+td {
+	padding: 15px 5px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom: 1px solid #f4f4f4;
+}
+	
+.course-title, th {
+	color: #b44cbf;
+	padding: 15px 10px;
+	text-align: left;
+	border-bottom: 1px solid #f4f4f4;
+}
+	
+td a,
+td a:visited {
+	color:white;
+	text-decoration: none;
+}
+
+td a:hover,
+td a:focus-within {
+	text-decoration: underline;
+}
