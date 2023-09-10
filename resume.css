@@ -163,6 +163,8 @@ td a:focus-within {
   .main-container {
     position: relative;
     margin: 0px;
+    width: 100%;
+    box-sizing: borde-box;
   }
 
   #diffPage {
