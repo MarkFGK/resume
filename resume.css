@@ -169,7 +169,7 @@ td a:focus-within {
     position: relative;
   }
 
-  h1 {
+  h1, #job-title {
     text-align: center;
   }
 }
