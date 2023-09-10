@@ -148,3 +148,28 @@ td a:hover,
 td a:focus-within {
 	text-decoration: underline;
 }
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .left-pane {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .menu {
+    text-align: center;
+  }
+  .main-container {
+    position: relative;
+    margin: 0px;
+  }
+
+  #diffPage {
+    position: relative;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
