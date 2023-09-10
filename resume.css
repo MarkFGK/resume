@@ -160,16 +160,18 @@ td a:focus-within {
   .menu {
     text-align: center;
   }
+
   .main-container {
     position: relative;
     margin: 0px;
     width: 100%;
-    box-sizing: borde-box;
+    box-sizing: border-box;
   }
 
   #diffPage {
     position: relative;
   }
+
 
   h1, #job-title {
     text-align: center;
