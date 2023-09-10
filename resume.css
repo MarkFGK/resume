@@ -164,19 +164,21 @@ td a:focus-within {
   .main-container {
     position: relative;
     margin: 0px;
-    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
     padding: 5px;
   }
 
   #diffPage {
     position: relative;
+    text-align: center;
   }
 
 table {
   width: 95%;
 }
-  h1, #job-title, h2 {
+	
+h1, h2 {
     text-align: center;
   }
 }
