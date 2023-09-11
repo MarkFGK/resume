@@ -198,8 +198,8 @@ h1, #job-title {
 	font-weight: bold;
 }
 
-.li-work a,
-.li-work a:visited {
+.li-certs a
+.li-certs a:visited {
 	color: #f4f4f4;
 }
 }
