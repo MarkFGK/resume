@@ -198,7 +198,8 @@ h1, #job-title {
 	font-weight: bold;
 }
 
-.li-work ul li a {
+.li-work a,
+.li-work a:visited {
 	color: #f4f4f4;
 }
 }
