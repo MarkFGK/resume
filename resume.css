@@ -180,7 +180,10 @@ td a:focus-within {
     text-align: center;
   }
 	
-h1, #job-title {
+h1 {
+  text-align: center;
+}
+#job-title {
     text-align: center;
     font-weight: bold;
   }
@@ -195,11 +198,11 @@ h1, #job-title {
 }
 	
 .course-title {
-	padding:0px;
+	padding: 0px;
 	font-weight: bold;
 }
 
-.li-certs a,
+.li-certs a:link,
 .li-certs a:visited {
 	color: #f4f4f4;
 }
