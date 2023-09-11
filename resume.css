@@ -195,5 +195,10 @@ h1, #job-title {
 	
 .course-title {
 	padding:0px;
+	font-weight: bold;
+}
+
+.li-work a {
+	color: white;
 }
 }
