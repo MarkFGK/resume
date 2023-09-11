@@ -149,6 +149,10 @@ td a:focus-within {
 	text-decoration: underline;
 }
 
+.li-work {
+	display:none
+}
+
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
   .left-pane {
@@ -181,4 +185,10 @@ table {
 h1, h2 {
     text-align: center;
   }
+.table-work {
+	display:none;
+}
+.li-work {
+	display: block;
+}
 }
