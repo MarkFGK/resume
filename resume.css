@@ -21,7 +21,7 @@ body {
 	font-size: 20px;
 	text-align: center;
 	color: #f4f4f4;
-	border-right: 10px groove #b44cbf;
+	border-right: 10px solid #b44cbf;
 }
 
 .main-container {
@@ -159,7 +159,7 @@ td a:focus-within {
     width: 100%;
     height: auto;
     position: relative;
-    border-left: 10px groove #b44cbf;
+    border-left: 10px solid #b44cbf;
   }
 
   .menu {
@@ -179,12 +179,14 @@ td a:focus-within {
     text-align: center;
   }
 	
-h1, .job-title {
+h1, #job-title {
     text-align: center;
   }
+	
 .table-work {
 	display:none;
 }
+	
 .li-work {
 	display: block;
 }
