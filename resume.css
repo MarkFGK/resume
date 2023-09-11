@@ -198,7 +198,7 @@ h1, #job-title {
 	font-weight: bold;
 }
 
-.li-work a {
-	color: white;
+.li-work ul li a {
+	color: #f4f4f4;
 }
 }
