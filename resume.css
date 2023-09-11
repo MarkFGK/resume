@@ -181,6 +181,7 @@ td a:focus-within {
 	
 h1, #job-title {
     text-align: center;
+    font-weight: bold;
   }
 	
 .table-work {
@@ -189,6 +190,7 @@ h1, #job-title {
 	
 .li-work {
 	display: block;
+	margin-top: 16px;
 }
 	
 .course-title {
