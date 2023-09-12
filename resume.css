@@ -204,9 +204,14 @@ td a:focus-within {
     border-bottom: none;
   }
   
-  .li-certs a:link,
+  .li-certs a,
   .li-certs a:visited {
     color: #f4f4f4;
     text-decoration: none; 
+  }
+
+.li-certs a:hover,
+.li-certs a:focus-within {
+    text-decoration: underline; 
   }
 }
