@@ -179,34 +179,34 @@ td a:focus-within {
     position: relative;
     text-align: center;
   }
-	
-h1 {
-  text-align: center;
-}
-#job-title {
+
+  h1 {
+    text-align: center;
+  }
+  
+  #job-title {
     text-align: center;
     font-weight: bold;
   }
-	
-.table-work {
-	display: none;
-}
-	
-.li-work {
-	display: block;
-	margin-top: 16px;
-}
-	
-.course-title {
-	padding: 0px;
-	font-weight: bold;
-	border-bottom: none;
-}
-
-li a:link,
-li a:visited {
-	color: #f4f4f4;
-	font-decoration: none;
-}
-
+  
+  .table-work {
+    display: none;
+  }
+  
+  .li-work {
+    display: block;
+    margin-top: 16px;
+  }
+  
+  .course-title {
+    padding: 0px;
+    font-weight: bold;
+    border-bottom: none;
+  }
+  
+  .li-certs a:link,
+  .li-certs a:visited {
+    color: #f4f4f4;
+    text-decoration: none; 
+  }
 }
