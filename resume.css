@@ -200,10 +200,11 @@ h1 {
 .course-title {
 	padding: 0px;
 	font-weight: bold;
+	border-bottom: none;
 }
 
-.li-certs a:link,
-.li-certs a:visited {
+.li-cert a:link,
+.li-cert a:visited {
 	color: #f4f4f4;
 }
 }
